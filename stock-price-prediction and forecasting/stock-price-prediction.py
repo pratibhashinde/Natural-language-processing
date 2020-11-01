@@ -3,8 +3,9 @@ import pandas_datareader as pdr
 #loading data
 #data is taken from ttingo website.login to tiingo, go to api and then copy api key from authentication section.
 # apple company stock data.
-df=pdr.get_data_tiingo('AAPL',api_key='f697c129af9fdfc834a05a340f794f1acafe15be')
-df.to_csv('data.csv')
+
+#df=pdr.get_data_tiingo('AAPL',api_key='f697c129af9fdfc834a05a340f794f1acafe15be')
+#df.to_csv('data.csv')
 
 import pandas as pd
 df=pd.read_csv('data.csv')  #stock prices as input
